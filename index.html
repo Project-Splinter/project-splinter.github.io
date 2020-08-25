@@ -3,43 +3,123 @@
     <meta name="generator" content="Hexo 3.8.0" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <title>Project Splinter</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+      />
     <link href="style.css" rel="stylesheet" media="all" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
       integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
       crossorigin="anonymous"
-    />
+      />
   </head>
 
   <body>
+  
     <h1>
       Project Splinter
-      <a href="https://github.com/Project-Splinter"
-        ><font size="10"><i class="fab fa-github"></i></font
-      ></a>
-    </h1>
+      <a href="https://github.com/Project-Splinter"><font size="10"><i
+            class="fab fa-github"></i></font></a>
+    </h1> 
+
+    <br>
+
+    <div align="center">
+
+      <h1 style="text-align: center; font-size: 30px; color:#1772d0;">
+        Team
+      </h1>
+
+      <div class='instructor'>
+        <a href="http://www.liruilong.cn/" target="_blank">
+          <div class="instructorphoto">
+            <img class="img-hover" src="http://www.liruilong.cn/files/photo.jpg">
+          </div>
+          <div>Ruilong Li</div>
+        </a>
+        <br>
+      </div>
+
+    <div class='instructor'>
+      <a href="http://xiuyuliang.cn" target="_blank">
+        <div class="instructorphoto">
+          <img class="img-hover" src="http://xiuyuliang.cn/about/me.jpg">
+        </div>
+        <div>Yuliang Xiu</div>
+      </a>
+      <br>
+    </div>
+
+    <div class='instructor'>
+      <a href="http://www-scf.usc.edu/~saitos/" target="_blank">
+        <div class="instructorphoto">
+          <img class="img-hover" src="http://www-scf.usc.edu/~saitos/img/Shunsuke.jpg">
+        </div>
+        <div>Shunsuke Saito</div>
+      </a>
+      <br>
+    </div>
+
+    <div class='instructor'>
+      <a href="https://zeng.science/" target="_blank">
+        <div class="instructorphoto">
+          <img class="img-hover" src="https://zeng.science/avatar.jpeg">
+        </div>
+        <div>Zeng Huang</div>
+      </a>
+      <br>
+    </div>
+
+    <div class='instructor'>
+      <a href="https://kyleolsz.github.io/" target="_blank">
+        <div class="instructorphoto">
+          <img class="img-hover" src="figures/kyle.png">
+        </div>
+        <div>Kyle Olszewski</div>
+      </a>
+      <br>
+    </div>
+
+    <div class='instructor'>
+      <a href="https://www.hao-li.com/Hao_Li/Hao_Li_-_about_me.html" target="_blank">
+        <div class="instructorphoto">
+          <img class="img-hover" src="figures/hao.jpg">
+        </div>
+        <div>Hao Li</div>
+      </a>
+      <br>
+    </div>
+
+
+    </div>
+
 
     <table class="gridtable">
       <tr>
-        <h1 style="text-align: center; font-size: 30px; color: green;">
+        <h1 style="text-align: center; font-size: 30px; color: #1772d0;">
           New Works
         </h1>
         <td>
           <a href="./monoport">
             <div class="grid-latest">
               <h3>Volumetric Human Teleportation</h3>
-              <h3 style="color: brown;">SIGGRAPH Real-Time Live 2020</h3>
-              <img class="padding" src="figures/rtl.jpg" />
+              <h2>SIGGRAPH RTL 2020</h2>
+              <img src="figures/rtl.jpg" />
             </div>
           </a>
         </td>
         <td>
           <a href="./monoport">
             <div class="grid-latest">
-              <h3>Monocular Real-Time Volumetric Performance Capture</h3>
+              <h3>
+                MonoPort: Monocular Real-Time Volumetric Performance Capture
+              </h3>
               <h2>ECCV 2020</h2>
-              <img class="padding" src="figures/monoport.gif" />
+              <img src="figures/monoport.gif" />
             </div>
           </a>
         </td>
@@ -48,10 +128,10 @@
 
     <table class="gridtable">
       <tr>
-        <h1 style="text-align: center; font-size: 30px; color: blue;">
-          Previous Related Works
+        <h1 style="text-align: center; font-size: 30px; color: #1772d0;">
+          Previous Works
         </h1>
-  
+
         <td>
           <a href="https://shunsukesaito.github.io/PIFuHD/">
             <div class="grid">
@@ -60,16 +140,14 @@
                 High-Resolution 3D Human Digitization
               </h3>
               <h2>CVPR 2020</h2>
-              <img class="padding" src="figures/pifuhd.gif" /></div
-          ></a>
+              <img src="figures/pifuhd.gif" /></div></a>
         </td>
         <td>
           <a href="https://arxiv.org/abs/2004.04572">
             <div class="grid">
               <h3>ARCH: Animatable Reconstruction of Clothed Humans</h3>
               <h2>CVPR 2020</h2>
-              <img class="padding" src="figures/arch.png" /></div
-          ></a>
+              <img src="figures/arch.png" /></div></a>
         </td>
 
         <td>
@@ -81,15 +159,12 @@
               </h3>
               <h2>ICCV 2019</h2>
               <video
-                class="padding"
                 src="figures/pifu.mp4"
                 playsinline
                 autoplay
                 loop
                 preload
-                muted
-              ></video></div
-          ></a>
+                muted></video></div></a>
         </td>
       </tr>
       <tr></tr>
@@ -100,24 +175,195 @@
             <div class="grid">
               <h3>SiCloPe: Silhouette-Based Clothed People</h3>
               <h2>CVPR 2019</h2>
-              <img class="padding" src="figures/siclope.png" /></div
-          ></a>
+              <img src="figures/siclope.png" /></div></a>
         </td>
 
         <td>
           <a
-            href="http://www.hao-li.com/publications/papers/eccv2018DVVFVSMVPC.pdf"
-          >
+            href="http://www.hao-li.com/publications/papers/eccv2018DVVFVSMVPC.pdf">
             <div class="grid">
               <h3>
                 Deep Volumetric Video From Very Sparse Multi-View Performance
                 Capture
               </h3>
               <h2>ECCV 2018</h2>
-              <img class="padding" src="figures/dsvc.png" /></div
-          ></a>
+              <img src="figures/dsvc.png" /></div></a>
         </td>
       </tr>
     </table>
+
+    <h1
+      style="text-align: center;
+      font-size: 30px;
+      color: #1772d0;
+      margin: 10px;
+      padding: 10px;">
+      Related Works of Other Teams
+    </h1>
+
+    <div class="list-group" style="width: 90vw; margin: auto;">
+      <a
+        href="https://virtualhumans.mpi-inf.mpg.de/ipnet/"
+        class="list-group-item list-group-item-action flex-column
+        align-items-start">
+        <tr>
+          <td>
+            <img
+              src="https://virtualhumans.mpi-inf.mpg.de/papers/bhatnagar2020ipnet/bhatnagar2020ipnet.png"
+              class="rounded float-left col-2" style="height: 100px;" />
+          </td>
+          <td class='col-10'>
+            <div class="d-flex justify-content-between">
+              <h5 class="mb-1" style="font-weight: bold;">
+                Combining Implicit Function Learning and Parametric Models for
+                3D Human Reconstruction
+              </h5>
+              <small class="text-muted">MPI-Inf</small>
+            </div>
+            <p class="mb-1">
+              European Conference on Computer Vision (ECCV), 2020.
+            </p>
+            <small>Bharat Lal Bhatnagar, Cristian Sminchisescu, Christian
+              Theobalt, Gerard Pons-Moll</small>
+          </td>
+        </tr>
+      </a>
+
+      <a
+        href="https://virtualhumans.mpi-inf.mpg.de/ifnets/"
+        class="list-group-item list-group-item-action flex-column
+        align-items-start">
+        <tr>
+          <td>
+            <img
+              src="https://virtualhumans.mpi-inf.mpg.de/papers/chibane20ifnet/chibane20ifnet.png"
+              class="rounded float-left col-2" style="height: 100px;" />
+          </td>
+          <td class='col-10'>
+            <div class="d-flex justify-content-between">
+              <h5 class="mb-1" style="font-weight: bold;">
+                Implicit Functions in Feature Space for 3D Shape Reconstruction and Completion
+              </h5>
+              <small class="text-muted">MPI-Inf</small>
+            </div>
+            <p class="mb-1">
+              IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
+            </p>
+            <small>Julian Chibane, Thiemo Alldieck, Gerard Pons-Moll</small>
+          </td>
+        </tr>
+      </a>
+
+      <a
+        href="https://virtualhumans.mpi-inf.mpg.de/nasa/"
+        class="list-group-item list-group-item-action flex-column
+        align-items-start">
+        <tr>
+          <td>
+            <img
+              src="https://virtualhumans.mpi-inf.mpg.de/papers/NASA20/NASA.png"
+              class="rounded float-left col-2" style="height: 100px;" />
+          </td>
+          <td class='col-10'>
+            <div class="d-flex justify-content-between">
+              <h5 class="mb-1" style="font-weight: bold;">
+                Neural Articulated Shape Approximation
+              </h5>
+              <small class="text-muted">MPI-Inf</small>
+            </div>
+            <p class="mb-1">
+              European Conference on Computer Vision (ECCV), 2020.
+            </p>
+            <small>Boyang Deng, JP Lewis, Timothy Jeruzalski, Gerard Pons-Moll, Geoffrey Hinton, Mohammad Norouzi, Andrea Tagliasacchi</small>
+          </td>
+        </tr>
+      </a>
+
+
+      <a
+      href="http://www.liuyebin.com/portrait/portrait.html"
+      class="list-group-item list-group-item-action flex-column
+      align-items-start">
+      <tr>
+        <td>
+          <img
+            src="https://liuyebin.com/portrait/selfportrait.jpg"
+            class="rounded float-left col-2" style="height: 100px;" />
+        </td>
+        <td class='col-10'>
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1" style="font-weight: bold;">
+              Robust 3D Self-portraits in Seconds
+            </h5>
+            <small class="text-muted">Tsinghua</small>
+          </div>
+          <p class="mb-1">
+            IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
+          </p>
+          <small>Zhe Li, Tao Yu, Chuanyu Pan, Zerong Zheng, Yebin Liu</small>
+        </td>
+      </tr>
+    </a>
+
+      <a
+        href="http://www.liuyebin.com/pamir/pamir.html"
+        class="list-group-item list-group-item-action flex-column
+        align-items-start">
+        <tr>
+          <td>
+            <img
+              src="https://liuyebin.com/pamir/assets/pamir.jpg"
+              class="rounded float-left col-2" style="height: 100px;" />
+          </td>
+          <td class='col-10'>
+            <div class="d-flex justify-content-between">
+              <h5 class="mb-1" style="font-weight: bold;">
+                PaMIR: Parametric Model-Conditioned Implicit Representation for Image-based Human Reconstruction
+              </h5>
+              <small class="text-muted">Tsinghua</small>
+            </div>
+            <p class="mb-1">
+              Arxiv 2020
+            </p>
+            <small>Zerong Zheng, Tao Yu, Yebin Liu, Qionghai Dai</small>
+          </td>
+        </tr>
+      </a>
+
+
+      <a
+        href="https://arxiv.org/abs/2006.08072"
+        class="list-group-item list-group-item-action flex-column
+        align-items-start">
+        <tr>
+          <td>
+            <img
+              src="./figures/geo-pifu.jpeg"
+              class="rounded float-left col-2" style="height: 100px;" />
+          </td>
+          <td class='col-10'>
+            <div class="d-flex justify-content-between">
+              <h5 class="mb-1" style="font-weight: bold;">
+                Geo-PIFu: Geometry and Pixel Aligned Implicit Functions for Single-view Human Reconstruction
+              </h5>
+              <small class="text-muted">UCLA</small>
+            </div>
+            <p class="mb-1">
+              Arxiv 2020
+            </p>
+            <small>Tong He, John Collomosse, Hailin Jin, Stefano Soatto</small>
+          </td>
+        </tr>
+      </a>
+
+    </div>
+    <div class="col-4" style="margin: auto;">
+      <br>
+      <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=1772d0&w=a&t=tt&d=PB6sQ1sYR4NFpokkO-PZW6A56SCTsRXtQ6P42sDVySE&co=e3e5e8&ct=1772d0'></script>     
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
   </body>
 </html>
