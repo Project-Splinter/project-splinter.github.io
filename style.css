@@ -26,6 +26,10 @@ body h3{
     font-weight: bold;
 }
 
+body h4{
+    font-weight: bold;
+}
+
 body table .gridtable{
     table-layout: fixed;
     width: 100%;
@@ -43,7 +47,7 @@ body .grid {
     box-shadow: 0px 0px 10px #999;
     border-radius: 15px;
     width: 30vw;
-    height: 25vw;
+    height: 30vw;
 }
 
 body .grid-latest {
@@ -58,7 +62,7 @@ body .grid-latest {
     box-shadow: 0px 0px 30px green;
     border-radius: 15px;
     width: 30vw;
-    height: 25vw;
+    height: 30vw;
 }
 
 body .grid:hover{
@@ -107,6 +111,10 @@ h2 {
 
 h3 {
     font-size: 14pt;
+}
+
+h4 {
+    font-size: 13pt;
 }
 
 /* Hyperlinks */
