@@ -47,7 +47,7 @@ body .grid {
     background: #ffffff;
     box-shadow: 0px 0px 10px #999;
     border-radius: 15px;
-    width: 30vw;
+    width: 28vw;
     height: 30vw;
 }
 
@@ -62,7 +62,7 @@ body .grid-latest {
     background: #ffffff;
     box-shadow: 0px 0px 30px green;
     border-radius: 15px;
-    width: 30vw;
+    width: 28vw;
     height: 30vw;
 }}
 
@@ -78,7 +78,7 @@ body .grid-latest {
         background: #ffffff;
         box-shadow: 0px 0px 10px #999;
         border-radius: 15px;
-        width: 30vw;
+        width: 28vw;
         height: 25vw;
     }
     
@@ -93,7 +93,7 @@ body .grid-latest {
         background: #ffffff;
         box-shadow: 0px 0px 30px green;
         border-radius: 15px;
-        width: 30vw;
+        width: 28vw;
         height: 25vw;
     }}
 
@@ -127,7 +127,7 @@ body video {
     display: inline-block;
     width: 130px;
     text-align: center;
-    margin-right: 40px;
+    margin-right: 28px;
   }
 
 
