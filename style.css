@@ -105,7 +105,7 @@ body .grid-latest:hover{
     box-shadow: 0px 0px 30px #1772d0;
 }
 
-body img {
+body #cover {
     width: 100%;
     /* height: 100%; */
     object-fit: contain;
@@ -118,6 +118,15 @@ body video {
    
 }
 
+body #news_pic {
+    position: relative;
+    margin: 2px;
+    height: 60px;
+    top: 10px;
+    bottom: 10px;
+    border-radius: 20px;
+  }
+
 .instructorphoto img {
     width: 120px;
     border-radius: 120px;
@@ -129,7 +138,6 @@ body video {
     text-align: center;
     margin-right: 28px;
   }
-
 
 
 /* Headings */
